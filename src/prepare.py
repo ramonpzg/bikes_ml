@@ -40,6 +40,5 @@ data.columns = ['rented_bike_count', 'hour', 'temperature', 'humidity', 'wind_sp
                 'holiday_yes', 'holiday_no', 'functioning_day_no', 'functioning_day_yes']
 
 n_train = int(len(data) - len(data) * split)
-
 data[:n_train].reset_index(drop=True).to_csv(train_path, index=False)
 data[n_train:].reset_index(drop=True).to_csv(test_path, index=False)
