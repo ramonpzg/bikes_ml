@@ -1,0 +1,8 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python src/get_data.py
+    deps:
+    - path: src/get_data.py
+      md5: a41ed4d8808d6c5488b8c987424f2655
+      size: 311

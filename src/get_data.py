@@ -1,4 +1,6 @@
 
+import urllib.request, os
+
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00560/SeoulBikeData.csv'
 path = os.path.join('data', 'raw')
 filename = 'SeoulBikeData.csv'
